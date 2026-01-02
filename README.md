@@ -1,6 +1,6 @@
 # nx_mroutetable
 ## Description
-The script prints mroute information in a better readable table format on NX-OS platforms.
+The script prints mroute information in a better readable table format on NX-OS platforms.<br>
 Optional the incoming/outgoing interface description are shown.<br>
 To reduce the table width a filter can be configured which shortens the interface descriptions as well as cdp/lldp hostnames.<br>
 ```event manager environment RMLIST "connected-to-, .mydom.dom, yyy-, zzz"```
