@@ -1,3 +1,5 @@
+# nx_mroutetable
+## Description
 The script prints mroute information in a better readable table format on NX-OS platforms.
 Optional the incoming/outgoing interface description are shown.<br>
 To reduce the table width a filter can be configured which shortens the interface descriptions as well as cdp/lldp hostnames.<br>
@@ -5,7 +7,7 @@ To reduce the table width a filter can be configured which shortens the interfac
 
 Note: The script is not vrf aware, it uses the default vrf.
 
-To use:
+## To use
 1. Copy script to N9K switch bootflash:scripts/
 2. Execute using:
    ```
